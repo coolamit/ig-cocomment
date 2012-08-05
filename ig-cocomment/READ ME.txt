@@ -1,0 +1,100 @@
+iG:CoComment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version: 0.5
+Author: Amit Gupta
+License: GNU GPL
+License URL: http://www.gnu.org/copyleft/gpl.html
+
+This plugin integrates coComment(www.cocomment.com) into your WordPress
+blog, allowing users of coComment to keep track of their comments and
+comments made after them(optional) easily.
+
+To know more about coComment, please visit their
+website http://www.cocomment.com/
+
+This plugin has been released under GNU GPL and by using this plugin,
+you agree to the terms and conditions of the license. This plugin is provided
+on an AS-IS basis without any implied warranty of any support and regarding
+any mis-happenings or damages that you or others might sustain owing to the
+use of this plugin. I'm not responsible for providing any support regarding
+this plugin or coComment, however if you ask politely(by providing correct
+NAME, EMAIL, URL), I might help you out with any issues regarding this plugin
+at my sole discretion. I won't provide any support for any spammers or people
+using this plugin on any spammy websites.
+
+You may call for help by posting a comment at the plugin page
+http://blog.igeek.info/still-fresh/2006/05/02/cocomment-it/
+
+If you find any bugs or issues with this plugin, you can always contact me via
+my website http://www.igeek.info/
+To contact me, go to the URL
+http://www.igeek.info/contact.php
+
+The WordPress support thread for this plugin is at
+http://wordpress.org/support/topic/70960
+
+
+REQUIREMENTS:-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) WordPress v1.5 or above(tested with v1.5.2 and v2.x)
+2) You need to be a top-level administrator to enable & configure
+   the plugin.
+
+
+INSTALLATION:-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) Drop the ig_cocomment.php file into your plugins folder.
+2) Open the plugin management page in your WP-Admin.
+3) Locate the iG:CoComment entry & activate.
+
+That's all, coComment will now be integrated in your WordPress theme.
+The plugin requires your WordPress theme to have the "comment_form" hook.
+All well-formed themes have this hook.
+
+
+CONFIGURATION:-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Navigate to the OPTIONS tab in your wp-admin and you'll see a tab
+in the sub nav-bar for this plugin. Open it & you'll see 2 options
+there, "Auto Activate coComment" & "Allow coComment to Track all Comments".
+You need to remember that only 1 of these options can be enabled. You
+can't have both of them enabled. If you enable both of them, then in that
+case the "Allow coComment to Track all Comments" option will take precedence
+and will be enabled, which will mean that regardless of current state, the
+other option will be disabled.
+
+However, you can disable both of these options, the plugin will still be
+functional, as its main aim is to integrate coComment and allow it to receive
+comments data from your blog easily. Its just that if you disable both options
+then the users of coComment will have to click on their coComment bookmarklet
+to activate coComment each time they want their comment to be tracked by
+coComment. In that case, coComment will track comments made by its users only
+& won't be tracking all subsequent comments.
+
+"Auto Activate coComment" when enabled, will activate coComment for the users
+logged into coComment service at that time. It saves them the trouble of
+clicking their coComment bookmarklet each time.
+
+"Allow coComment to Track all Comments" when enabled, will not only activate
+coComment for the users logged into coComment, but will also track all the
+subsequent comments made after them, irrespective of whether the subsequent
+commentators are coComment users or not. BY DEFAULT, THIS OPTION IS ENABLED.
+YOU ARE ADVISED TO KEEP THIS AS IT IS.
+
+If you don't want coComment enabled for your blog, then de-activate the
+plugin. In that case, whether or not coComment is used on your blog depends
+on coComment's support for WordPress(which is not fully supported yet). So
+it might work for some users and it might not work for others.
+
+
+If you want to track your comments then you will need to signup with
+coComment as well. Its free & easy, go for it.
+
+coComment is currently in a beta, sometimes there might occur some problems
+with the service. That won't harm your blog in anyway though, but still if
+it does, then you can't hold me liable for anything.
+
+
+
+
+
